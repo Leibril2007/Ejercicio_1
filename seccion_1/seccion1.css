@@ -1,5 +1,69 @@
 .section1{
-    border: 1px solid black;
-    height: 45rem;
-    background-color: lightcoral;
+    background-color: #F6EEFC;
+    height: 40rem;
+    display: grid;
+    padding-left: 7rem;
+    grid-template-columns: 30rem;
+    grid-template-rows: 1fr 7rem 1fr;
+}
+
+.section1 h1{
+    font-size: 3rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: end;
+}
+
+.section1 p{
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.Request{
+    width: 11rem;
+    height: 3rem;
+    background-color: #7622D7;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+/* FOOTER */
+footer{
+    height: 7rem;
+    width: 100%;
+    padding: 0rem 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 1.5rem;
+}
+
+.flecha{
+    width: 1.7rem;
+}
+
+.capterra{
+    width: 7rem;
+}
+
+footer span{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.span2{
+    text-align: end;
 }

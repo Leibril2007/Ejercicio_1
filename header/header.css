@@ -1,7 +1,5 @@
 header{
-    border: 1px solid black;
-    height: 15rem;
-
+    height: 12.5rem;
 
     display: grid;
     grid-template-rows: 6rem 1fr 6rem;
@@ -12,9 +10,16 @@ header{
 
 .Australian{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     gap: 1rem;
+
+}
+
+.x{
+    width: 35%;
+    text-align: center;
+    margin-right: 2rem;
 }
 
 header .region{
@@ -41,18 +46,40 @@ header .pIconos{
 }
 
 .iconSearch{
+    font-size: 0.8rem;
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
 
 .iconos{
+    font-size: 0.8rem;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* EMPLOYMENT */
+.pIconos span{
+    font-size: 1.2rem;
+}
 
+/* EMPLOYMENT */
+.empHero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empHero h2{
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.empHero img{
+    height: 2rem;
+    width: 2rem;
+}
 
 
 /* MENU */
@@ -68,7 +95,7 @@ header .pIconos{
 
 nav{
     display: flex;
-    gap: 2.4rem;
+    gap: 1rem;
 }
 
 .botMenu{
@@ -77,6 +104,7 @@ nav{
 }
 
 a{
+    /* font-size: 0.8rem; */
     text-decoration: none;
     color: #171214;
     font-weight: bold;
@@ -91,10 +119,12 @@ a{
 }
 
 .dosBot{
-    width: 14rem;
-    height: 2.8rem;
+
+    padding: 1rem;
+    height: 2.5rem;
     border: 2px solid #171214;
     border-radius: 20px;
+    font-size: 0.9rem;
 
     display: flex;
     justify-content: center;
@@ -106,9 +136,10 @@ a{
 .purple{
     background-color: #7622D7;
     color: aliceblue;
-    width: 14rem;
-    height: 2.8rem;
+    padding: 1rem;
+    height: 2.5rem;
     border-radius: 20px;
+    font-size: 0.9rem;
 
     display: flex;
     justify-content: center;
