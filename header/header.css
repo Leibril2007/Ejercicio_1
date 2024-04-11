@@ -1,5 +1,119 @@
 header{
     border: 1px solid black;
     height: 15rem;
-    background-color: lemonchiffon;
+
+
+    display: grid;
+    grid-template-rows: 6rem 1fr 6rem;
+    grid-template-columns: 1fr;
 }
+
+
+
+.Australian{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .region{
+    width: 9.7rem;
+    height: 2rem;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+header .pIconos{
+    height: 0.5rem;
+    grid-row: 2/3;
+    margin-right: 3rem;
+
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.iconSearch{
+    display: flex;
+    align-items: center;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* EMPLOYMENT */
+
+
+
+/* MENU */
+
+.pMenu{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-content: space-evenly;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 2.4rem;
+}
+
+.botMenu{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #171214;
+    font-weight: bold;
+}
+
+/* BOTONES */
+
+
+.pDosBot{
+    display: flex;
+    gap: 1rem;
+}
+
+.dosBot{
+    width: 14rem;
+    height: 2.8rem;
+    border: 2px solid #171214;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.purple{
+    background-color: #7622D7;
+    color: aliceblue;
+    width: 14rem;
+    height: 2.8rem;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
